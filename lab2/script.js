@@ -87,4 +87,14 @@ window.onload = function(){
     
         outputElement.innerHTML = a
     }
+
+    document.getElementById("btn_op_sign").onclick = function() { 
+        a = -a
+        outputElement.innerHTML = a
+    }
+
+    document.getElementById("btn_op_percent").onclick = function() { 
+        outputElement.style.background = 'red'
+    }
+
     };
